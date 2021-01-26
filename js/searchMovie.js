@@ -13,7 +13,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: "http://www.omdbapi.com/",
+            url: "https://www.omdbapi.com/",
             data: "t=" + title + "&y=" + year + "&plot=" + plot + "&apikey=d70b7fe6",
             dataType: "jsonp",
             success: function (response) {
